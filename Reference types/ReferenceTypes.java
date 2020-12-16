@@ -9,6 +9,8 @@ public class ReferenceTypes {
 
         Date now = new Date(); // now is instance of Date class
         System.out.println(now);
+
+        // Reference types are diffrent than primitive types, casue they store only reference to an object somewhere in the memory(Primitive types store value).
     }
 
 }
