@@ -9,5 +9,6 @@ public class Main {
         System.out.println(betterMessege.length());
         System.out.println(betterMessege.indexOf("A"));
         System.out.println(betterMessege.replace("Ano", "%$#"));
+        System.out.println(betterMessege.toLowerCase());
     }
 }
