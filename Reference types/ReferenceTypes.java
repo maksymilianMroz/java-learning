@@ -1,5 +1,3 @@
-import java.util.Date;
-
 import java.util.Date; // Package which import cause od Date.util class
 
 public class ReferenceTypes {
