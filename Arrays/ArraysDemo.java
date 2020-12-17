@@ -1,4 +1,4 @@
-public class Arrays {
+public class ArraysDemo {
     public static void main(String[] args) {
         int[] numbers = new int[5]; // Creating an array for 5 items
 
@@ -7,7 +7,10 @@ public class Arrays {
         // ...
         // numbers[10] = 3; // exepction
 
-        System.out.println(numbers); // Arrays will show as a chain of characters - place in memory where array was save
+        
+        System.out.println(numbers); // will show as a chain of characters - place in memory where array was save
+
+        Arrays.toString(numbers);
 
     }
 }
