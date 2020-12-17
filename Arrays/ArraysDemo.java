@@ -10,7 +10,6 @@ public class ArraysDemo {
         
         System.out.println(numbers); // will show as a chain of characters - place in memory where array was save
 
-        Arrays.toString(numbers);
 
     }
 }
