@@ -11,11 +11,15 @@ public class Arithmetic {
         // // x++; // 2
         // ++x; // 2
 
+        // int x = 1;
+        // int y = x++;
+        // System.out.println(x); // in the line above I used x++ so even if I wanted to only create variable, I added 1 to x, too
+        // System.out.println(y);
+
         int x = 1;
-        int y = x++;
-        System.out.println(x); // in the line above I used x++ so even if I wanted to only create variable, I added 1 to x, too
+        int y = ++x;
+        System.out.println(x);
         System.out.println(y);
-        
 
     }
 }
