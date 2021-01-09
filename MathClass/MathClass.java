@@ -20,8 +20,12 @@ public class MathClass {
         System.out.println(minEx);
         System.out.println("#########");
 
-        double randomEx = Math.random(); // random number
+        double randomEx = Math.random(); // random number between 0 - 1
         System.out.println(randomEx);
+        System.out.println("#########");
+
+        double randomHundEx = Math.random() * 100; // random number between 0 - 100
+        System.out.println(randomHundEx);
         System.out.println("#########");
     }
 }
