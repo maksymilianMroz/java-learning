@@ -27,5 +27,9 @@ public class MathClass {
         double randomHundEx = Math.random() * 100; // random number between 0 - 100
         System.out.println(randomHundEx);
         System.out.println("#########");
+
+        int combResult = (int) Math.round(Math.random() * 100);
+        System.out.println(combResult);
+        System.out.println("#########");
     }
 }
