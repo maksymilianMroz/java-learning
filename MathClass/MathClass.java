@@ -11,5 +11,13 @@ public class MathClass {
         int floorEx = (int) Math.floor(1.1F);
         System.out.println(floorEx);
         System.out.println("#########");
+
+        int maxEx = (int) Math.max(123, 321); // Bigger number
+        System.out.println(maxEx);
+        System.out.println("#########");
+
+        int minEx = (int) Math.min(123, 321); // Smaller number
+        System.out.println(minEx);
+        System.out.println("#########");
     }
 }
