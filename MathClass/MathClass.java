@@ -1,5 +1,6 @@
 public class MathClass {
     public static void main(String[] args) {
-        System.out.println("Test comment");
+        int roundEx = Math.round(1.1F);
+        System.out.println(roundEx);
     }
 }
