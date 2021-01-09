@@ -19,5 +19,9 @@ public class MathClass {
         int minEx = (int) Math.min(123, 321); // Smaller number
         System.out.println(minEx);
         System.out.println("#########");
+
+        double randomEx = Math.random(); // random number
+        System.out.println(randomEx);
+        System.out.println("#########");
     }
 }
