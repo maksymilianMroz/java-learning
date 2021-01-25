@@ -1,7 +1,17 @@
+import java.util.Scanner;
+
 public class ReadingInput {
     public static void main(String[] args) {
 
-        System.out.println("Test");
+        // Scanner scanner = new Scanner(System.in);
+        // System.out.print("Age: ");
+        // byte age = scanner.nextByte();
+        // System.out.println("You are " + age);
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Name: ");
+        String name = scanner.nextLine().trim();
+        System.out.println("You are " + name);
 
     }
 }
